@@ -2,11 +2,12 @@
  * @Author: zyxm5
  * @Date: 2021-03-01 15:45:23
  * @LastEditors: zyxm5
- * @LastEditTime: 2021-03-01 16:36:39
+ * @LastEditTime: 2021-03-01 16:53:26
  * @Description: 
  */
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
+import { BASE_URL } from '@/constants';
 
 const routes = [
   {
@@ -26,7 +27,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(BASE_URL),
   routes
 });
 

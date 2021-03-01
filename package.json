@@ -7,9 +7,9 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "lodash-es": "^4.17.21",
     "postcss-preset-env": "^6.7.0",
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.1.4",
