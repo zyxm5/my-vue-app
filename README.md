@@ -1,11 +1,13 @@
 <!--
  * @Author: zyxm5
- * @Date: 2021-03-01 14:34:58
+ * @Date: 2021-03-01 15:43:51
  * @LastEditors: zyxm5
- * @LastEditTime: 2021-03-01 17:13:17
+ * @LastEditTime: 2021-03-02 16:38:25
  * @Description: 
 -->
-# Vue3 + Vuex4 + Vue-router4 + Vite + axios
+# cli-app
+
+# Vue3 + Vuex + Vue-router + Vue-cli + axios
 
 ## 目录结构
 
@@ -40,7 +42,6 @@
 npm install
 ```
 
-
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -50,3 +51,11 @@ npm run serve
 ```
 npm run build
 ```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

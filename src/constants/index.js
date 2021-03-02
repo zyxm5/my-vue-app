@@ -5,4 +5,3 @@
  * @LastEditTime: 2021-03-02 10:28:06
  * @Description: 常量入口文件
  */
-export const BASE_URL = "/deploy/";
