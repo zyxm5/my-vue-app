@@ -2,7 +2,7 @@
  * @Author: zyxm5
  * @Date: 2021-03-01 13:19:37
  * @LastEditors: zyxm5
- * @LastEditTime: 2021-03-01 17:13:49
+ * @LastEditTime: 2021-03-02 10:27:44
  * @Description:
  */
 module.exports = {
@@ -17,10 +17,10 @@ module.exports = {
             },
         },
         // https://github.com/meltifa/postcss-pixel-to-viewport
-        "postcss-pixel-to-viewport": {
-            // 尺寸比例 原始尺寸 1920 * 1080
-            viewportWidth: 1920,
-            viewportUnit: "vw",
-        },
+        // "postcss-pixel-to-viewport": {
+        //     // 尺寸比例 原始尺寸 1920 * 1080
+        //     viewportWidth: 1920,
+        //     viewportUnit: "vw",
+        // },
     },
 };

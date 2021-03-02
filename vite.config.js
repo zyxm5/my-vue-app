@@ -2,7 +2,7 @@
  * @Author: zyxm5
  * @Date: 2021-03-01 10:42:28
  * @LastEditors: zyxm5
- * @LastEditTime: 2021-03-01 16:55:48
+ * @LastEditTime: 2021-03-02 14:46:28
  * @Description: 
  */
 import { defineConfig } from 'vite'
@@ -18,7 +18,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve('./src')
-    }
+    },
+    extensions: [".js", ".json", ".vue"]
   },
   // 打包路径
   base: BASE_URL
