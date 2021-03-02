@@ -2,7 +2,7 @@
  * @Author: zyxm5
  * @Date: 2021-03-01 15:28:45
  * @LastEditors: zyxm5
- * @LastEditTime: 2021-03-02 08:43:31
+ * @LastEditTime: 2021-03-02 17:37:49
  * @Description: 
 -->
 <template>
@@ -13,9 +13,9 @@
     >
     <HelloWorld
       :msg="msg"
-      @changeMsg="msg = $event"
     />
   </div>
+  <BaseAnchoredHeading>test</BaseAnchoredHeading>
 </template>
 
 <script>
