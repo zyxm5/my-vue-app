@@ -2,7 +2,7 @@
  * @Author: zyxm5
  * @Date: 2020-12-25 16:06:10
  * @LastEditors: zyxm5
- * @LastEditTime: 2021-03-01 15:05:08
+ * @LastEditTime: 2021-03-02 17:56:08
  * @Description: vue-cli配置
  */
 module.exports = {
@@ -16,7 +16,7 @@ module.exports = {
   },
   configureWebpack: {
     resolve: {
-      // extensions: [".js", ".json", ".vue", ".less"]
+      extensions: [".js", ".json", ".vue", ".css"]
     }
   }
 };

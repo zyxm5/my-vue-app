@@ -1,3 +1,10 @@
+<!--
+ * @Author: zyxm5
+ * @Date: 2021-03-02 17:43:13
+ * @LastEditors: zyxm5
+ * @LastEditTime: 2021-03-02 17:57:12
+ * @Description: 
+-->
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />

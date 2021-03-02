@@ -1,3 +1,10 @@
+<!--
+ * @Author: zyxm5
+ * @Date: 2021-03-02 17:43:13
+ * @LastEditors: zyxm5
+ * @LastEditTime: 2021-03-02 17:56:47
+ * @Description: 
+-->
 <template>
   <div id="app">
     <div id="nav">
@@ -8,7 +15,7 @@
   </div>
 </template>
 
-<style lang="less">
+<style lang="postcss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
